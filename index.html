@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive html website</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="header">
+        <div class="container">
+            <img src="images/logo.png" alt="" class="logo">
+            <div class="header-text">
+                <h1>Lorem ipsum dolor <br> sit amet consectetur.</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo perferendis aut mollitia placeat
+                    consectetur repellendus a dolor nam inventore, fugiat cupiditate consequuntur asperiores ipsam, ab
+                    quibusdam cum iusto praesentium delectus.</p>
+                <button class="btn">Read More</button>
+            </div>
+            <div class="line">
+                <div class="line1"></div><br>
+                <div class="line2"></div><br>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- nav area start -->
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Offer</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" alt="menu " id="menubtn">
+
+
+    <!-- about area -->
+    <section class="about-area">
+        <div class="col-2">
+            <div class="about-img">
+                <img src="images/about.png" alt="">
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="about-container">
+                <div class="about-text">
+                    <h1>About Us</h1>
+                    <span class="square"></span>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda omnis, sit, placeat dolorem
+                        dolorum voluptatum cum, tempore ipsam iste exercitationem id ex dignissimos ipsa accusantium?
+                    </p><br><br>
+                    <div class="line">
+                        <div class="line1"></div><br>
+                        <div class="line2"></div><br>
+                        <div class="line3"></div>
+                    </div>
+                    <h2>"I would teach peace rather than war. I would inculcate love rather than hate."</h2>
+                    <h4>- Albert Einstein</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Features area start -->
+    <section class="features-area">
+        <div class="row">
+            <div class="col-4">
+                <div class="single-feature">
+                    <img src="images/pic-1.png" alt="">
+                    <h4>Learn anywhere</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, autem. Culpa autem
+                        perspiciatis nisi esse.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="single-feature">
+                    <img src="images/pic-2.png" alt="">
+                    <h4>Expert teachers</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, autem. Culpa autem
+                        perspiciatis nisi esse.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="single-feature">
+                    <img src="images/pic-3.png" alt="">
+                    <h4>Unlimited space</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, autem. Culpa autem
+                        perspiciatis nisi esse.</p>
+                </div>
+            </div>
+        </div>
+        <div class="feature-btn">
+            <div class="line">
+                <div class="line1"></div><br>
+                <div class="line2"></div><br>
+                <div class="line3"></div>
+            </div>
+            <button class="btn">Start your free trial</button>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var menubtn = document.getElementById("menubtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menubtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+            }
+            else {
+                sideNav.style.right = "-250px";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

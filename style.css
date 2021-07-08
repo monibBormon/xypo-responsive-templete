@@ -100,7 +100,7 @@ nav ul li a{
 }
 
 /*---------- about---- */
-.about-area{
+.about-area,.offer-area{
     padding: 100px 0;
     display: flex;
     align-items: center;
@@ -165,4 +165,28 @@ nav ul li a{
 .feature-btn .line{
     text-align: right;
     margin-right: 15px;
+}
+
+/* course */
+.courses{
+    padding: 100px 0;
+}
+.course-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.course-img img{
+    width: 100%;
+}
+.course-text{
+    max-width: 350px;
+}
+.course-text .btn{
+    margin: 30px 0;
+}
+
+/* offer */
+.offer-area .btn{
+    margin: 30px 0;
 }
